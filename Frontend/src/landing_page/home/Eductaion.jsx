@@ -1,5 +1,6 @@
+
 export default function Education(){
     return(
-        <h5>Education</h5>
+        <h5>Education </h5>
     )
 }
