@@ -26,7 +26,7 @@ export default function Trust() {
                     </div>
                 </div>
             </div>
-            <div className="row mt-5" style={{width:"70%", margin:"0 auto"}}>
+            <div className="row mt-5 mb-5" style={{width:"70%", margin:"0 auto"}}>
                 <img src="media/pressLogos.png" alt="" />
             </div>
         </div>

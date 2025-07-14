@@ -11,22 +11,22 @@ export default function Pricing() {
                 <div className="col-6">
                     <div className="row">
                         <div className="col">
-                            <div className="row">
-                                <div className="col"><img src="media/pricing-eq.svg" alt="" /></div>
-                                <div className="col fs-6 fw-lighter" style={{ fontSize: "13px" }}>Free account opening</div>
+                            <div className="row position-relative">
+                                <div className="col-6"><img src="media/pricing-eq.svg" alt="" /></div>
+                                <div className="col-6 fw-lighter  position-absolute bottom-0 end-0 " style={{ fontSize: "11px" }}>Free account opening</div>
                             </div>
                         </div>
                         <div className="col">
-                            <div className="row">
-                                <div className="col-5"><img src="media/pricing-eq.svg" alt="" /></div>
-                                <div className="col-7 fw-lighter" style={{ fontSize: "13px" }}>Free equity delivery and direct mutual funds</div>
+                            <div className="row position-relative">
+                                <div className="col-6"><img src="media/pricing-eq.svg" alt="" /></div>
+                                <div className="col-6 fw-lighter position-absolute bottom-0 end-0  " style={{ fontSize: "11px" }}>Free equity delivery and direct mutual funds</div>
                             </div>
 
                         </div>
                         <div className="col">
-                            <div className="row">
-                                <div className="col"><img src="media/other-trades.svg" alt="" /></div>
-                                <div className="col fs-6 fw-lighter" style={{ fontSize: "13px" }}>Intraday and F&O </div>
+                            <div className="row position-relative">
+                                <div className="col-6"><img src="media/other-trades.svg" alt="" /></div>
+                                <div className="col-6 fw-lighter position-absolute bottom-0 end-0 " style={{ fontSize: "11px" }}>Intraday and F&O </div>
                             </div>
                         </div>
                     </div>
