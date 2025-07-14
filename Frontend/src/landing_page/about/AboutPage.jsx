@@ -7,11 +7,9 @@ import Team from "./Team";
 export default function AboutPage(){
     return(
         <>
-            <Navbar/>
             <About/>
             <People/>
-             <Team/>
-            <Footer/>
+            <Team/>
         </>
     )
 }

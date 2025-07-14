@@ -10,14 +10,12 @@ import Steps from "./Steps";
 export default function SignupPage(){
     return(
         <>
-            <Navbar/>
             <Signup/>
             <InvestmentOptions/>
             <Steps/>
             <Benifits/>
             <Explore/>
             <Faq/>
-            <Footer/>
         </>
     )
 }

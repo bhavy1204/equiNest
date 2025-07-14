@@ -6,10 +6,8 @@ import Portal from "./Portal";
 export default function SupportPage(){
     return(
         <>
-            <Navbar/>
             <Portal/>
             <CreateTicket/>
-            <Footer/>
         </>
     )
 }

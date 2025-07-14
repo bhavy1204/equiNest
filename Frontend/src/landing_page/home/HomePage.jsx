@@ -9,13 +9,11 @@ import Trust from "./Trust";
 export default function HomePage(){
     return(
         <>
-            <Navbar/>
             <Invest/>
             <Trust/>
             <Pricing/>
             <Education/>
             <OpenAcc/>
-            <Footer/>
         </>
     )
 }

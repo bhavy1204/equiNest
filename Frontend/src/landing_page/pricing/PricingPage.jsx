@@ -6,10 +6,8 @@ import Charges from "./Charges";
 export default function PricingPage() {
     return (
         <>
-            <Navbar/>
             <Brokerage />
             <Charges />
-            <Footer/>
         </>
     )
 }

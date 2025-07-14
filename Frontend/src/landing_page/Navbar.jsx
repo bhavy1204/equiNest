@@ -1,12 +1,13 @@
 import MenuIcon from '@mui/icons-material/Menu';
+import { Link } from 'react-router-dom';
 export default function Navbar() {
     return (
 
-        <nav class="navbar navbar-expand-lg border-bottom " style={{ backgroundColor: "#ffffff" , height:"70px", overflow:"hidden"}}>
+        <nav class="navbar navbar-expand-lg border-bottom " style={{ backgroundColor: "#ffffff", height: "70px", overflow: "hidden" }}>
             <div class="container p-2">
-                <a class="navbar-brand" href="#">
+                <Link class="navbar-brand" to='/'>
                     <img src="media/logo.svg" alt="" style={{ width: "20%" }} />
-                </a>
+                </Link>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -14,22 +15,22 @@ export default function Navbar() {
                     <form class="d-flex" role="search">
                         <ul class="navbar-nav mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Signup</a>
+                                <Link class="nav-link" to='/signup' >Signup</Link >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <Link class="nav-link" to='/about' >About</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Products</a>
+                                <Link class="nav-link" to='/products'>Products</Link >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
+                                <Link class="nav-link" to='/pricing'>Pricing</Link >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Support</a>
+                                <Link class="nav-link" to='/support' >Support</Link >
                             </li>
-                            <li class="menu-icon" style={{marginLeft:"30px"}}>
-                                <MenuIcon fontSize='large'/>
+                            <li class="menu-icon" style={{ marginLeft: "30px" }}>
+                                <MenuIcon fontSize='large' />
                             </li>
                         </ul>
 
